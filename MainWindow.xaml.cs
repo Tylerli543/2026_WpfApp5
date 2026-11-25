@@ -65,5 +65,10 @@ namespace _2026_WpfApp5
             }
             CourseListBox.ItemsSource = courses;
         }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
